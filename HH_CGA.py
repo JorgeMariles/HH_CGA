@@ -30,7 +30,7 @@ for x in range(2,len(File)):
 print(items.shape,bin_size)
 
 
-# In[43]:
+
 
 
 #bin packaging creation
@@ -42,7 +42,7 @@ def population_creation(rules,fs,d1,d2):
     return population         
 
 
-# In[7]:
+# Las funciones del algoritmo genetico celular comienzan aqui
 
 
 def crossover(fitness,population,d1,d2,number_items,bin_size,mr):
@@ -115,7 +115,12 @@ def mutation(population,mr):
     return population
 
 
-# In[74]:
+# Las funciones del algoritmo genetico celular terminan aqui
+
+
+
+
+
 
 
 def bin_heuristic(population,items,rules,bin_size): 
